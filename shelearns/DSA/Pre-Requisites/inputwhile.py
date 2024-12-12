@@ -15,7 +15,7 @@ i = 0
 while i < 7:
     i += 1
     if i == 3:
-        continue  # skip printing 3
+        continue  # skip present iteration 3 ko print nhi
     if i == 6:
-        break  # exit the loop when i is 4
+        break  # when i is 4 exits complete loops
     print(i)
