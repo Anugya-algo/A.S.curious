@@ -6,8 +6,6 @@ lit=[list,kit]
 del list[2]
 print(list)
 
-
-
 list.append(67)
 print(list)
 
