@@ -1,0 +1,27 @@
+try:
+    num = int(input("Enter a number: "))
+    print(f"The number you entered is {num}")
+except ValueError:
+    print("That's not a valid number!")
+else:
+    print("Execution was successful!")
+finally:
+    print("This block executes no matter what.")
+
+#division by zeroerror
+
+try:
+    
+    a=int(input("ENTER NUMBER TO BE DIVIDED : ")) 
+    b=int(input("ENTER BY WHICH NUMBER TO BE DIVIDED : "))   
+    c=a/b
+
+except ValueError:
+    print("the number is invalid ,enter integer")
+
+except ZeroDivisionError:
+    print("Division by zero is not allowed.")
+
+else:
+    print(f"alright , the answer is {c}")
+ 
